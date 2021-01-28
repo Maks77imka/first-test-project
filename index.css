@@ -18,10 +18,6 @@ h2 {
   margin-bottom: 7px;
 }
 
-p {
-  margin-top: 0px;
-}
-
 #bot_title {
   text-align: center;
   background-color: #42656b;
@@ -61,25 +57,22 @@ p {
 .bot_forms form input:first-child {
   margin-bottom: 10px;
   height: 38px;
-  border-style: solid;
-  border-color: rgb(182, 181, 181);
+  border: 1px solid rgb(182, 181, 181);
   padding: 0px 10px;
   background-color: rgb(233, 233, 233);
   border-radius: 7px;
 }
 
 .bot_forms form input:first-child:focus {
-  border-color: rgb(247, 195, 55);
-  border-style: solid;
-  height: 40px;
+  border: 1px solid rgb(247, 195, 55);
 }
 
 #bot_button {
   height: 40px;
   border: none;
+  border-radius: 7px;
   font-weight: bolder;
   color: #94e0ee;
-  border-radius: 7px;
   background: #42656b;
   transition: background 0.3s ease-in;
 }

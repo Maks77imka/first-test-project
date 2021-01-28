@@ -3,7 +3,8 @@ const botAnswer = document.querySelector("#answer");
 const typeAnimation = "animate__bounceIn";
 
 let db = {
-  "Что ты умеешь?": "На самом деле, немного, я - ранняя тестовая версия искуственного интелекта",
+  "Что ты умеешь?": "На самом деле, немного, я - ранняя тестовая версия искуственного интелекта.\
+  Посмотрите мой исходный код, чтобы узнать список вопросов, на которые я могу ответить",
   "Hi": "Hello",
   "What is your name?": "I'm Jarvis sir",
   "How are you?": "I'm fine. Thanks! How are you?",
