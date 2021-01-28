@@ -81,3 +81,7 @@ h2 {
   cursor: pointer;
   background: #1c975d;
 }
+
+#bot_button:active {
+  border: none;
+}
