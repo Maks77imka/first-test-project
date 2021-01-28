@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 100px;
+  min-height: 100vh;
+  background: whitesmoke;
+}
+
+body, input, button {
+  font-family: 'Courier Prime', monospace;
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 7px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+#bot_title {
+  text-align: center;
+  background-color: #42656b;
+  color: #94e0ee;
+  padding: 7px 0px;
+  border-radius: 10px;
+  border-color: rgb(247, 195, 55);
+  border-style: solid;
+  margin-bottom: 25px;
+}
+
+.wr {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.bot {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: white;
+  max-width: 320px;
+  width: 100%;
+  padding: 20px 15px;
+}
+
+.bot_top {
+  color: gray;
+  margin-bottom: 100px;
+}
+
+.bot_forms form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bot_forms form input:first-child {
+  margin-bottom: 10px;
+  height: 38px;
+  border-style: solid;
+  border-color: rgb(182, 181, 181);
+  padding: 0px 10px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 7px;
+}
+
+.bot_forms form input:first-child:focus {
+  border-color: rgb(247, 195, 55);
+  border-style: solid;
+  height: 40px;
+}
+
+#bot_button {
+  height: 40px;
+  border: none;
+  font-weight: bolder;
+  color: #94e0ee;
+  border-radius: 7px;
+  background: #42656b;
+  transition: background 0.3s ease-in;
+}
+
+#bot_button:hover {
+  cursor: pointer;
+  background: #1c975d;
+}
