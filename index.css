@@ -9,8 +9,10 @@ body {
   background: whitesmoke;
 }
 
-body, input, button {
-  font-family: 'Courier Prime', monospace;
+body,
+input,
+button {
+  font-family: "Courier Prime", monospace;
 }
 
 h2 {
