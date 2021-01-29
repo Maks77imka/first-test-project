@@ -4,7 +4,6 @@
 }
 
 body {
-  margin-top: 100px;
   min-height: 100vh;
   background: whitesmoke;
 }
@@ -18,6 +17,10 @@ button {
 h2 {
   font-size: 22px;
   margin-bottom: 7px;
+}
+
+#q {
+  z-index: -100;
 }
 
 #bot_title {
@@ -38,6 +41,9 @@ h2 {
 }
 
 .bot {
+  position: absolute;
+  top: 100px;
+  left: 800px;
   border: 1px solid #ccc;
   border-radius: 15px;
   background-color: white;
